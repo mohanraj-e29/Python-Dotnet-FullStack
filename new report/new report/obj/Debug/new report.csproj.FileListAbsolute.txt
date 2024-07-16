@@ -1,0 +1,11 @@
+E:\mohanraj.dotnet\new report\new report\bin\Debug\new report.exe.config
+E:\mohanraj.dotnet\new report\new report\bin\Debug\new report.exe
+E:\mohanraj.dotnet\new report\new report\bin\Debug\new report.pdb
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new report.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new_report.Form1.resources
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new_report.Properties.Resources.resources
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new report.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new report.exe
+E:\mohanraj.dotnet\new report\new report\obj\Debug\new report.pdb
+E:\mohanraj.dotnet\new report\new report\obj\Debug\RdlCompile.cache
+E:\mohanraj.dotnet\new report\new report\obj\Debug\RdlCompile.compiled

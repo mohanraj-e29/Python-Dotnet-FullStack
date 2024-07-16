@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\pattern7\pattern7\bin\Debug\pattern7.exe.config
+E:\mohanraj.dotnet\pattern7\pattern7\bin\Debug\pattern7.exe
+E:\mohanraj.dotnet\pattern7\pattern7\bin\Debug\pattern7.pdb
+E:\mohanraj.dotnet\pattern7\pattern7\obj\Debug\pattern7.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\pattern7\pattern7\obj\Debug\pattern7.exe
+E:\mohanraj.dotnet\pattern7\pattern7\obj\Debug\pattern7.pdb

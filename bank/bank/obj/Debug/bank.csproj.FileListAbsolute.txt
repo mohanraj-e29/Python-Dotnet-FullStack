@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\bank\bank\bin\Debug\bank.exe.config
+E:\mohanraj.dotnet\bank\bank\bin\Debug\bank.exe
+E:\mohanraj.dotnet\bank\bank\bin\Debug\bank.pdb
+E:\mohanraj.dotnet\bank\bank\obj\Debug\bank.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\bank\bank\obj\Debug\bank.exe
+E:\mohanraj.dotnet\bank\bank\obj\Debug\bank.pdb

@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\bin\Debug\reverse.exe.config
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\bin\Debug\reverse.exe
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\bin\Debug\reverse.pdb
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\obj\Debug\reverse.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\obj\Debug\reverse.exe
+E:\mohanraj.dotnet\MVC Dotnet\reverse\reverse\obj\Debug\reverse.pdb

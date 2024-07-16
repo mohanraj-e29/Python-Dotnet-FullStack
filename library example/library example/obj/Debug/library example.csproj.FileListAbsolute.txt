@@ -1,0 +1,4 @@
+E:\mohanraj.dotnet\library example\library example\bin\Debug\library example.pdb
+E:\mohanraj.dotnet\library example\library example\obj\Debug\library example.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\library example\library example\obj\Debug\library example.dll
+E:\mohanraj.dotnet\library example\library example\obj\Debug\library example.pdb

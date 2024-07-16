@@ -1,0 +1,2 @@
+E:\mohanraj.dotnet\MVC Dotnet\callby vale callby ref\callby vale callby ref\bin\Debug\callby vale callby ref.exe.config
+E:\mohanraj.dotnet\MVC Dotnet\callby vale callby ref\callby vale callby ref\obj\Debug\callby vale callby ref.csprojResolveAssemblyReference.cache

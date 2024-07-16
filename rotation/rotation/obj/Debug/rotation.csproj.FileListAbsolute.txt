@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\rotation\rotation\bin\Debug\rotation.exe.config
+E:\mohanraj.dotnet\rotation\rotation\bin\Debug\rotation.exe
+E:\mohanraj.dotnet\rotation\rotation\bin\Debug\rotation.pdb
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.Form1.resources
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.Properties.Resources.resources
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.exe
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.pdb
+E:\mohanraj.dotnet\rotation\rotation\obj\Debug\rotation.csprojResolveAssemblyReference.cache

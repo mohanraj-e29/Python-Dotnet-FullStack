@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\bin\student register form.dll.config
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\bin\student register form.dll
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\bin\student register form.pdb
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\obj\Debug\student register form.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\obj\Debug\student register form.dll
+E:\mohanraj.dotnet\ASP Dot Net\student register form\student register form\obj\Debug\student register form.pdb

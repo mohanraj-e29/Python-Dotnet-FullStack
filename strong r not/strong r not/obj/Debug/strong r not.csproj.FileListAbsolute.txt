@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\strong r not\strong r not\bin\Debug\strong r not.exe.config
+E:\mohanraj.dotnet\strong r not\strong r not\bin\Debug\strong r not.exe
+E:\mohanraj.dotnet\strong r not\strong r not\bin\Debug\strong r not.pdb
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong r not.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong_r_not.Form1.resources
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong_r_not.Properties.Resources.resources
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong r not.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong r not.exe
+E:\mohanraj.dotnet\strong r not\strong r not\obj\Debug\strong r not.pdb

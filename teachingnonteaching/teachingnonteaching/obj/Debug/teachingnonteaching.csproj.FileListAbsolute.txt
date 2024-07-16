@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\bin\Debug\teachingnonteaching.exe.config
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\bin\Debug\teachingnonteaching.exe
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\bin\Debug\teachingnonteaching.pdb
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\obj\Debug\teachingnonteaching.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\obj\Debug\teachingnonteaching.exe
+E:\mohanraj.dotnet\teachingnonteaching\teachingnonteaching\obj\Debug\teachingnonteaching.pdb

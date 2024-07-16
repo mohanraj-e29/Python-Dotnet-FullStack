@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\series of 13\series of 13\bin\Debug\series of 13.exe.config
+E:\mohanraj.dotnet\series of 13\series of 13\bin\Debug\series of 13.exe
+E:\mohanraj.dotnet\series of 13\series of 13\bin\Debug\series of 13.pdb
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series of 13.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series_of_13.Form1.resources
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series_of_13.Properties.Resources.resources
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series of 13.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series of 13.exe
+E:\mohanraj.dotnet\series of 13\series of 13\obj\Debug\series of 13.pdb

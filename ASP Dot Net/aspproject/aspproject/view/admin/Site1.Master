@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="aspproject.view.admin.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../../asserts/libaries/css/bootstrap.min.css"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#">C a r   R e n t a l</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.aspx">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cars.aspx">Car</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="customer.aspx">Customers</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="rents.aspx"> Rentals</a>
+      </li>
+      
+        <li class="nav-item">
+        <a class="nav-link" href="returns.aspx">Returns</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+    <form id="form1" runat="server">
+
+
+
+
+
+
+
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+
+
+
+
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

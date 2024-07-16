@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\bin\Debug\secondlargnumbr.exe.config
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\bin\Debug\secondlargnumbr.exe
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\bin\Debug\secondlargnumbr.pdb
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.Form1.resources
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.Properties.Resources.resources
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.exe
+E:\mohanraj.dotnet\secondlargnumbr\secondlargnumbr\obj\Debug\secondlargnumbr.pdb

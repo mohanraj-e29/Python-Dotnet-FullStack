@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\pattern1\pattern1\bin\Debug\pattern1.exe.config
+E:\mohanraj.dotnet\pattern1\pattern1\bin\Debug\pattern1.exe
+E:\mohanraj.dotnet\pattern1\pattern1\bin\Debug\pattern1.pdb
+E:\mohanraj.dotnet\pattern1\pattern1\obj\Debug\pattern1.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\pattern1\pattern1\obj\Debug\pattern1.exe
+E:\mohanraj.dotnet\pattern1\pattern1\obj\Debug\pattern1.pdb

@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\printsalary\printsalary\bin\Debug\printsalary.exe.config
+E:\mohanraj.dotnet\printsalary\printsalary\bin\Debug\printsalary.exe
+E:\mohanraj.dotnet\printsalary\printsalary\bin\Debug\printsalary.pdb
+E:\mohanraj.dotnet\printsalary\printsalary\obj\Debug\printsalary.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\printsalary\printsalary\obj\Debug\printsalary.exe
+E:\mohanraj.dotnet\printsalary\printsalary\obj\Debug\printsalary.pdb

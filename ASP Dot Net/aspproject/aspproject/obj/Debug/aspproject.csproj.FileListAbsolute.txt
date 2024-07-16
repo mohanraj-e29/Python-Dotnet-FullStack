@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\bin\aspproject.dll.config
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\bin\aspproject.dll
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\bin\aspproject.pdb
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\obj\Debug\aspproject.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\obj\Debug\aspproject.dll
+E:\mohanraj.dotnet\ASP Dot Net\aspproject\aspproject\obj\Debug\aspproject.pdb

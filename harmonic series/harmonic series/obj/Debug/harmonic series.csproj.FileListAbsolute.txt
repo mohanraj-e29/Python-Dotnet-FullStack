@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\harmonic series\harmonic series\bin\Debug\harmonic series.exe.config
+E:\mohanraj.dotnet\harmonic series\harmonic series\bin\Debug\harmonic series.exe
+E:\mohanraj.dotnet\harmonic series\harmonic series\bin\Debug\harmonic series.pdb
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic series.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic_series.Form1.resources
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic_series.Properties.Resources.resources
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic series.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic series.exe
+E:\mohanraj.dotnet\harmonic series\harmonic series\obj\Debug\harmonic series.pdb

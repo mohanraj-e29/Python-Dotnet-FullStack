@@ -1,0 +1,50 @@
+﻿@model entity.detail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>detail</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.proid)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.proid)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.brand)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.brand)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.stock)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.stock)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

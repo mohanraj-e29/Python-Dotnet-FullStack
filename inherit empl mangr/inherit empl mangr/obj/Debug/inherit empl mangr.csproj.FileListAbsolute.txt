@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\bin\Debug\inherit empl mangr.exe.config
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\bin\Debug\inherit empl mangr.exe
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\bin\Debug\inherit empl mangr.pdb
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\obj\Debug\inherit empl mangr.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\obj\Debug\inherit empl mangr.exe
+E:\mohanraj.dotnet\inherit empl mangr\inherit empl mangr\obj\Debug\inherit empl mangr.pdb

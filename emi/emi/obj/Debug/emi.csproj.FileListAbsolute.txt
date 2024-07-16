@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\emi\emi\bin\Debug\emi.exe.config
+E:\mohanraj.dotnet\emi\emi\bin\Debug\emi.exe
+E:\mohanraj.dotnet\emi\emi\bin\Debug\emi.pdb
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.Form1.resources
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.Properties.Resources.resources
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.exe
+E:\mohanraj.dotnet\emi\emi\obj\Debug\emi.pdb

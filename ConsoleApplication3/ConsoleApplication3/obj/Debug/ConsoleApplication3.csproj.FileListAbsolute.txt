@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+E:\mohanraj.dotnet\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\bin\Debug\calculate oupinp.exe.config
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\bin\Debug\calculate oupinp.exe
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\bin\Debug\calculate oupinp.pdb
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate oupinp.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate_oupinp.Form1.resources
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate_oupinp.Properties.Resources.resources
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate oupinp.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate oupinp.exe
+E:\mohanraj.dotnet\calculate oupinp\calculate oupinp\obj\Debug\calculate oupinp.pdb

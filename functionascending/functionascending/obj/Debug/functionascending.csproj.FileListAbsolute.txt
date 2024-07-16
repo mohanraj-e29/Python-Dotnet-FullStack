@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\functionascending\functionascending\bin\Debug\functionascending.exe.config
+E:\mohanraj.dotnet\functionascending\functionascending\bin\Debug\functionascending.exe
+E:\mohanraj.dotnet\functionascending\functionascending\bin\Debug\functionascending.pdb
+E:\mohanraj.dotnet\functionascending\functionascending\obj\Debug\functionascending.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\functionascending\functionascending\obj\Debug\functionascending.exe
+E:\mohanraj.dotnet\functionascending\functionascending\obj\Debug\functionascending.pdb

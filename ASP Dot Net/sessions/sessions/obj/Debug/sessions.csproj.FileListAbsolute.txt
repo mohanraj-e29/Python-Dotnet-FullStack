@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\obj\Debug\sessions.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\bin\sessions.dll.config
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\bin\sessions.dll
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\bin\sessions.pdb
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\obj\Debug\sessions.dll
+E:\mohanraj.dotnet\ASP Dot Net\sessions\sessions\obj\Debug\sessions.pdb

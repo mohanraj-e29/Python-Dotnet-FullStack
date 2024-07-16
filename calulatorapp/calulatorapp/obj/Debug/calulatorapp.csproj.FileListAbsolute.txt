@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\bin\Debug\calulatorapp.exe.config
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\bin\Debug\calulatorapp.exe
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\bin\Debug\calulatorapp.pdb
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.Form1.resources
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.Properties.Resources.resources
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.exe
+E:\mohanraj.dotnet\calulatorapp\calulatorapp\obj\Debug\calulatorapp.pdb

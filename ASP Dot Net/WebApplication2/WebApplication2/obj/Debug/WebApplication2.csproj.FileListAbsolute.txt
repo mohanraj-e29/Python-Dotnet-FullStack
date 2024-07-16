@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\mohanraj.dotnet\ASP Dot Net\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

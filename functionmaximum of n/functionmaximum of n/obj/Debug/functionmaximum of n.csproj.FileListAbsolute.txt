@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\bin\Debug\functionmaximum of n.exe.config
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\bin\Debug\functionmaximum of n.exe
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\bin\Debug\functionmaximum of n.pdb
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\obj\Debug\functionmaximum of n.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\obj\Debug\functionmaximum of n.exe
+E:\mohanraj.dotnet\functionmaximum of n\functionmaximum of n\obj\Debug\functionmaximum of n.pdb

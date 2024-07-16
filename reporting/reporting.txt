@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.Reporting.WinForms;
+using System.Data.SqlClient;
+
+namespace data_viewer
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            this.rv.RefreshReport();
+        }
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\v11.0;Initial Catalog=empinfo540;Integrated Security=True");
+        private void b_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand("select * from empdata", con);
+            con.Open();
+            SqlDataAdapter sd = new SqlDataAdapter(cmd);
+            DataTable d = new DataTable("empdata");
+            sd.Fill(d);
+            ReportDataSource rd = new ReportDataSource("DataSet1", d);
+            rv.LocalReport.ReportPath = "C:\\Accord Info Matrix\\DOT NET\\data viewer\\data viewer\\Report1.rdlc";
+           // rv.LocalReport.ReportPath = "C:\\Accord Info Matrix\\DOT NET\\data viewer\\data viewer";
+            rv.LocalReport.DataSources.Clear();
+            rv.LocalReport.DataSources.Add(rd);
+            rv.RefreshReport();
+            
+        }
+    }
+}
+
+
+
+
+
+
+Data Source=(Localdb)\v11.0;Initial Catalog=empinfo540;Integrated Security=True

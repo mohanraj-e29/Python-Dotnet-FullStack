@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\stringexp\stringexp\bin\Debug\stringexp.exe.config
+E:\mohanraj.dotnet\stringexp\stringexp\bin\Debug\stringexp.exe
+E:\mohanraj.dotnet\stringexp\stringexp\bin\Debug\stringexp.pdb
+E:\mohanraj.dotnet\stringexp\stringexp\obj\Debug\stringexp.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\stringexp\stringexp\obj\Debug\stringexp.exe
+E:\mohanraj.dotnet\stringexp\stringexp\obj\Debug\stringexp.pdb

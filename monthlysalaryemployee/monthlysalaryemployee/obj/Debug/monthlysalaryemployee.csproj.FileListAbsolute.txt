@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\bin\Debug\monthlysalaryemployee.exe.config
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\obj\Debug\monthlysalaryemployee.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\bin\Debug\monthlysalaryemployee.exe
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\bin\Debug\monthlysalaryemployee.pdb
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\obj\Debug\monthlysalaryemployee.exe
+E:\mohanraj.dotnet\monthlysalaryemployee\monthlysalaryemployee\obj\Debug\monthlysalaryemployee.pdb

@@ -1,0 +1,6 @@
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\bin\Debug\trianglecircle.exe.config
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\bin\Debug\trianglecircle.exe
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\bin\Debug\trianglecircle.pdb
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\obj\Debug\trianglecircle.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\obj\Debug\trianglecircle.exe
+E:\mohanraj.dotnet\trianglecircle\trianglecircle\obj\Debug\trianglecircle.pdb

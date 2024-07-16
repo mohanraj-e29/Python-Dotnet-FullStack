@@ -1,0 +1,9 @@
+E:\mohanraj.dotnet\prime r not\prime r not\bin\Debug\prime r not.exe.config
+E:\mohanraj.dotnet\prime r not\prime r not\bin\Debug\prime r not.exe
+E:\mohanraj.dotnet\prime r not\prime r not\bin\Debug\prime r not.pdb
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime r not.csprojResolveAssemblyReference.cache
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime_r_not.Form1.resources
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime_r_not.Properties.Resources.resources
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime r not.csproj.GenerateResource.Cache
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime r not.exe
+E:\mohanraj.dotnet\prime r not\prime r not\obj\Debug\prime r not.pdb
