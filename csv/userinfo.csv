@@ -1,0 +1,9 @@
+from csv import*
+d=["name","emailid","mobile number","dob"
+data=[["sathish","ss@gmail.com",2234509875,22-09-1999],["mohan","sun@gmail.com"9234509875,22-10-1998],["raj","sunny@gmal.com",8234509875,29-09-2000],["ganesh","guns@gmal.com",5234509875,22-09-1999]]
+f=open("userinfo.csv","w",newline="")
+c=writer(f)
+c.writerow(n)
+c.writerows(data)
+f.close()
+print("file saved")
