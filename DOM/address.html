@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+<title>text box</title>
+</head>
+<body>
+<textarea rows=6 id=tempadd placeholder="temperory Adress"></textarea>
+<input type=checkbox id=chk onclick=copyaddress()>Both are same
+<textarea rows=6 id=permadd placeholder="permanent Adress"></textarea>
+</body>
+<script>
+function copyaddress()
+{
+ta=document.getElementById("tempadd");
+pa=document.getElementById("permadd");
+c=document.getElementById("chk");
+if(c.checked==true)
+{
+pa.value=ta.value;
+pa.disabled=true;
+}
+else
+{
+pa.value="";
+pa.disabled=false;
+}
+}
+</script>

@@ -1,0 +1,157 @@
+<style>
+span{
+color:red;
+}
+</style>
+<body>
+<form action=home.html onclick=register()>
+<p>Fname: <input type=text id=bx1><span id=e1></span></p>
+<p>Lname: <input type=text id=bx2><span id=e2></span></p>
+<p>Phone No:<input type=text id=bx3><span id=e3></span></p>
+<p>Password:<input type=password id=bx4><span id=e4></span></p>
+<p>Confirm Password:<input type=password id=bx5><span id=e5></span></p>
+<p>Email Id:<input type=email id=bx6><span id=e6></span></p>
+<p>Address:<textarea rows=6 placeholder=Address id=bx7></textarea><span id=e7></span></p>
+ <p><input type=button value=Register. id=bx5></p>
+ </form>
+ </body>
+ <script>
+ function register()
+ {
+ v1=document.getElementById("bx1");
+e1=document.getElementById("e1");
+exp=/^[a-z A-Z]{3,20}$/;
+if(v1.value=="")
+{
+	e1.innerText="please enter your Fname";
+	v1.focus();
+	return false;
+}
+else if(exp.test(v1.value)==false)
+{
+	e1.innerText="invalid name";
+	v1.focus();
+	return false;
+}
+else
+{
+	e1.innerText="correct";
+}
+		
+//Lname
+ v2=document.getElementById("bx2");
+e2=document.getElementById("e2");
+exp1=/^[a-z A-Z]{3,20}$/;
+if(v2.value=="")
+{
+	e2.innerText="please enter your Lname";
+	v2.focus();
+	return false;
+}
+else if(exp1.test(v2.value)==false)
+{
+	e2.innerText="invalid name";
+	v2.focus();
+	return false;
+}
+else
+{
+	e2.innerText="correct";
+}
+//phno
+v3=document.getElementById("bx3");
+e3=document.getElementById("e3");
+exp=/^[6-9]{1}[0-9]{9}$/;
+if(v3.value=="")
+{
+	e3.innerText="please enter your phone number";
+	v3.focus();
+	return false;
+}
+else if(exp.test(v3.value)==false)
+{
+	e3.innerText="invalid phno";
+	v3.focus();
+	return false;
+}
+else
+{
+	e3.innerText="";
+}	
+
+//password
+v4=document.getElementById("bx4");
+e4=document.getElementById("e4");
+exp2=/^[a-z_A-Z]{1,6}$/;
+if(v4.value=="")
+{
+	e4.innerText="please enter your phone number";
+	v4.focus();
+	return false;
+}
+else if(exp2.test(v4.value)==false)
+{
+	e4.innerText="invalid phno";
+	v4.focus();
+	return false;
+}
+else
+{
+	e4.innerText="";
+}			
+
+//cnfrm password
+v5=document.getElementById("bx5");
+e5=document.getElementById("e5");
+exp3=/^[a-z_A-Z]{1,6}$/;
+if(v5.value=="")
+{
+	e5.innerText="re enter your password";
+	v5.focus();
+	return false;
+}
+if(v4.value==v5.value)
+{
+    e5.innerText="password confrimed";
+	return false;
+}
+else if(exp3.test(v5.value)==false)
+{
+	e5.innerText="invalid ";
+
+	return false;
+}
+else
+{
+	e5.innerText="";
+}	
+
+//email
+v6=document.getElementById("bx6");
+e6=document.getElementById("e6");
+if(v6.value=="")
+{
+	e6.innerText="please enter your email id";
+	v6.focus();
+	return false;
+}
+else
+{
+	e6.innerText="";
+}	
+	
+//address
+v7=document.getElementById("bx7");
+e7=document.getElementById("e7");
+if(v7.value=="")
+{
+	e7.innerText="please enter your address";
+	v7.focus();
+	return false;
+}
+else
+{
+	e7.innerText="";
+}		
+ }
+ </script>

@@ -1,0 +1,25 @@
+<body>
+<form>
+<input type=radio name=accept id=acpt onclick=set()>I accept all the agreement<br>
+<input type=radio name=accept id=dacpt>I do not accept theagreement<br>
+<input type=button value="<back">      <input type=button value="next>" id=chk>       <input type=button value="cancel">
+</form>
+</body>
+<script>
+b=document.getElementById("dacpt");
+c=document.getElementById("chk");
+c.disabled=true;
+function set()
+{
+a=document.getElementById("acpt");
+if(a.checked==true)
+{
+c.disabled=false;
+}
+if(b.checked!=true)
+{
+c.disabled=false;
+}
+}
+</script>
+ 

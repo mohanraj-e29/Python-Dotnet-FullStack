@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>List User</h2>
+    <input type="button" value="Add User" class="btn btn-secondary" routerLink="/add">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of ulist;let i=index">
+                <td>{{i+1}}</td>
+                <td>{{u.id}}</td>
+                <td>{{u.name}}</td>
+                <td>{{u.email}}</td>
+                <td>{{u.phone}}</td>
+                <td>
+                    <span class="btn btn-warning btn-sm" routerLink="/edit/{{u.id}}">Edit</span> &nbsp;
+                    <span class="btn btn-danger btn-sm" (click)="deleteInfo(u.id)">Delete</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

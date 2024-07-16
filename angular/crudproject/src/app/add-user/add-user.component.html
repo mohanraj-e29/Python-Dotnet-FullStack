@@ -1,0 +1,21 @@
+<div class="container" style="max-width:300px">
+    <h2>Add User</h2>
+    <form (ngSubmit)="addInfo()">
+        <p>
+            <label>Name</label>
+            <input type="text" name="uname" [(ngModel)]="userObj.name" class="form-control">
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="text" name="email" [(ngModel)]="userObj.email" class="form-control">
+        </p>
+        <p>
+            <label>Phone</label>
+            <input type="text" name="phone" [(ngModel)]="userObj.phone" class="form-control">
+        </p>
+        <p>
+            <input type="submit" value="Add" class="btn btn-primary">&nbsp;
+            <input type="button" value="User's List" class="btn btn-success" routerLink="/list">
+        </p>
+    </form>
+</div>

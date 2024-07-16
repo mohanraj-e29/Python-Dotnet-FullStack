@@ -1,0 +1,19 @@
+<!doctype html>
+<head>
+<title>text box</title>
+</head>
+<body>
+<textarea rows=6 id=msg onkeyup=max100()></textarea>
+<span><span id=remchar>100 </span> Characters Remaining</span>
+</body>
+<script>
+function max100()
+{
+m=document.getElementById("msg");
+cnt=100;
+cnt=cnt-m.value.length;
+rc=document.getElementById("remchar");
+rc=innerText=cnt;
+m.setAttribute("maxlength",100)'
+}
+</script>

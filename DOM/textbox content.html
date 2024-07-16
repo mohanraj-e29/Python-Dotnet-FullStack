@@ -1,0 +1,16 @@
+<!doctype html>
+<head>
+<title>text box</title>
+</head>
+<body>
+<h1 id=display></h1>
+<input type=textbox id=type onkeyup=text()>
+</body>
+<script>
+function text()
+{
+m=document.getElementById("type");
+d=document.getElementById("display");
+d.innerText=m.value;
+}
+</script>

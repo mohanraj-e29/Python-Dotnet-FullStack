@@ -1,0 +1,19 @@
+<body>
+<input type=checkbox id=chk value=experience onclick=exp()>experience
+<select id=bx1 disabled=disabled>
+<option>--select--</option>
+<option>1 years</option>
+<option>3 years</option>
+<option>5 years</option></select>
+</body>
+<script>
+function exp()
+{
+ch=document.getElementById("bx1");
+bx1.disabled=false;
+if(ch.checked==true)
+{
+bx1.disabled=true;
+}
+}
+</script>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img{
+width: 450px;
+height: 300px;
+}
+</style>
+<title></title>
+</head>
+<body>
+<input id="i1" type="button" value="<<"name="" onclick="previous()">
+<img id="img"src="https://c4.wallpaperflare.com/wallpaper/615/968/866/anime-naruto-madara-uchiha-wallpaper-preview.jpg">
+<input id="i2" type="button" value=">>"name="" onclick="next()">
+<script src="C:\type script\firstprogram.js">
+p=document.getElementById('img');
+i=0;
+a=["https://c4.wallpaperflare.com/wallpaper/615/968/866/anime-naruto-madara-uchiha-wallpaper-preview.jpg","https://steamuserimages-a.akamaihd.net/ugc/1330201351021325126/29B73424B1AAAB6E893DE6DB4B7B0FB37D557828/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true","https://picstatio.com/large/xnfugl/Uchiha-Obito-naruto-anime-wallpaper.jpg","https://qph.cf2.quoracdn.net/main-qimg-ec34bd81a479733cff0b437174cefbde-pjlq"]
+//setInterval(next,2000);
+i=0;
+function next()
+{
+	i++;
+	if(i==a.length)
+	{
+		i=0;
+	}
+	p.src=a[i];
+}
+function previous()
+{
+	i--;
+	if(i==-1)
+	{
+		i=a.length-1;
+	}
+	p.src=a[i];
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+timer
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		div{
+			border: 1px solid black;
+			width: 180px;
+			height: 120px;
+		}
+		p{
+			height: 50px;
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p><span id="hour"></span>:<span id="min"></span>:<span id="sec"></span></p>
+	<p><input type="button" onclick="tim()" value="start" name="">
+	<input type="button" value="stop" onclick="st()" name="">
+	<input type="button" value="pause" id="pause_button" onclick="pa()" name="">
+</p>
+</div>
+</body>
+</html>
+<script>
+	i=0,j=0,k=0,v=0,t=0;
+	s=document.getElementById('sec');
+	m=document.getElementById('min');
+	h=document.getElementById('hour');
+	function tim()
+	{
+		t=1;
+		v=setInterval(sect,1000);
+		function sect()
+		{
+			s.innerText=i;
+			i++;
+			if(i==60)
+			{
+				i=0;
+				j++;
+				m.innerText=j;
+				if(j==60)
+				{
+					j=0;
+					k++;
+					h.innerText=k;
+				}
+			}
+		}
+	}
+	function st()
+	{
+		i=0,j=0,k=0,t=0;
+		s.innerText=s.value="";
+		m.innerText=m.value="";
+		h.innerText=h.value="";
+		document.getElementById('pause_button').value="pause";
+		clearInterval(v);
+	}
+	l=0;
+	function pa()
+	{
+		console.log("t-"+t);
+		if(t==1)
+		 {
+			l++;
+			if(l==1)
+			{
+				clearInterval(v);
+				document.getElementById('pause_button').value="continue";
+			}
+			else
+			{
+				t=0;
+				l=0;
+				document.getElementById('pause_button').value="pause";
+				tim();
+			}
+		}
+	}
+</script>

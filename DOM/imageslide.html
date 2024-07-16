@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+<title>Image Slide</title>
+<style>
+img{
+width:500px;
+height:300px;
+}
+</style>
+</head> 
+<body>
+<input type=button class=btn value=previos onclick=prev()>
+<img src=pic5.jpg id=pic>
+<input type=button class=btn value=next onclick=next()>
+</body>
+<script>
+p=document.getElementById("pic");
+i=0;
+a=["pic2.jpg","pic4.jpg","pic6.jpg","thanos.jpg"];
+i=0;
+function next()
+{
+	i++;
+	if(i==a.length)
+	{
+		i=0;
+	}
+	p.src=a[i];
+}
+function prev()
+{
+	i--;
+	if(i==-1)
+	{
+		i=a.length-1;
+	}
+	p.src=a[i];
+}
+</script>
+

@@ -1,0 +1,126 @@
+<!doctype=html>
+<html>
+<head>
+<title>Forms</title>
+<link rel=icon href=forms.png>
+</head>
+<body>
+<table align=center>
+<form action="home.html" method=post autocomplete=off>
+<tr>
+<td><label >Name*</label></td>
+<td><input type=text id=user autofocus placeholder="alphabet only" minlength=3 name=urname required ></td>
+</tr>
+<tr>
+<td>Father's Name</td>
+<td><input type=text></td>
+</tr>
+<tr>
+<td>Password*</td>
+<td><input type=password placeholder=min8characters name=pass required></td>
+</tr>
+<tr>
+<td>Phone</td>
+<td><input type=text value=+91 size=1 readonly >
+<input type=text pattern=[0-9]{10} size=13 maxlength=10></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type=radio name=gender>Male<input type=radio name=gender>Female</td>
+</tr>
+<td>language</td>
+<td><input type=checkbox checked>English
+<input type=checkbox >Tamil
+<input type=checkbox >Hindi</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td><select multiple>
+<option disabled>--Selected--</option>
+<option selected>Python</option>
+<option >webDesign</option>
+<option >.Net</option></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows=4 cols=15 maxlength=100></textarea></td>
+</tr>
+<tr>
+<td>Profile.Pic</td>
+<td><input type=file accept=image/* multiple></td>
+</tr>
+<tr>
+<td>College</td>
+<td><input list=college><datalist id=college>
+<option>SRM</option>
+<option>PEC</option>
+<option>MIT</option></datalist></td>
+</tr>
+<tr>
+<td>Schools</td>
+<td><input list=school><datalist id=school>
+<option>SKV</option>
+<option>PEC</option>
+<option>SDA</option>
+</datalist></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type=email ></td>
+</tr>
+<tr>
+<td>Percentage</td>
+<td><input type=number min=1 max=100 steps=0.1></td>
+</tr>
+<tr>
+<td>WebSite</td>
+<td><input type=url></td>
+</tr>
+<tr>
+<td>Search</td>
+<td><input type=search></td>
+</tr>
+<tr>
+<td>D-O-B</td>
+<td><input type=date></td>
+</tr>
+<tr>
+<td>Date</td>
+<td><input type=date><td>
+</tr>
+<tr>
+<td>Time</td>
+<td><input type=time></td>
+</tr>
+<td>Date&Time </td>
+<td><input type=datetimetime-local</td>
+</tr>
+<tr>
+<td>Week</td>
+<td><input type=week </td>
+</tr>
+<tr>
+<td>Month</td>
+<td><input type=month></td>
+</tr>
+<tr>
+<td>Price</td>
+<td><input type=range></td>
+</tr>
+<tr>
+<td>favColor</td>
+<td><input type=color></td>
+</tr>
+<tr>
+<td><input type=submit value=Register>
+<input type=Reset></td>
+<td><input type=image src=register.jpg width=100 height=40><input type=image src=reset.jpg width=100 height=40>
+</tr>
+</form>
+</table>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,20 @@
+<script>
+var n=parseInt(prompt("Enter the number"));
+n1=n;
+a=0;
+while(n>0)
+{
+r=n%10;
+a=a+(r*r*r);
+n=parseInt(n/10);
+}
+if(n1==a)
+{
+document.write(n1+"=Armstrong");
+}
+else
+{
+document.write("Not a armstrong");
+}
+
+</script>

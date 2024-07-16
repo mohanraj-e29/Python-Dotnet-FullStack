@@ -1,0 +1,28 @@
+<style>
+#w{
+background:white;
+}
+#b{
+background:black;
+}
+</style>
+<script>
+document.write("<table border width=200 height=200 rules=all>");
+for(i=1;i<=8;i++)
+{
+document.write("<tr>");
+for(j=1;j<=8;j++)
+{
+if((i+j)%2==0)
+{
+document.write("<td id=w></td>");
+}
+else
+{
+document.write("<td id=b></td>");
+}
+}
+document.write("</tr>");
+}
+document.write("</table>");
+</script>

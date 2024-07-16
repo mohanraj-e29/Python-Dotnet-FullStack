@@ -1,0 +1,27 @@
+<script>
+s="appa";
+i=0,c=0;
+fun(s);
+function fun(s)
+{
+     if(s[i]==s[s.length-1-i])
+	 {
+	   c++;
+	 }
+	 i++;
+     if(i<s.length/2)
+	 {
+	  fun(s);
+	 }
+}
+if(c==s.length/2)
+{
+  console.log("palindrome");
+}
+else
+{
+  console.log("Not a palindrome");
+  }
+console.log(c);
+console.log(i);
+</script>

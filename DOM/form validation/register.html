@@ -1,0 +1,24 @@
+<style>
+span{
+color:red;
+}
+</style>
+<body>
+<form action=home.html onsubmit="return valid()" autocomplete="off">
+<p>name<input type=text id=bx1><span id=er1 ></span></p>
+<p>phno<input type=text id=bx2><span id=er2 ></span></p>
+<p>gender<input type=radio name=gender>male
+         <input type=radio name=gender>female<span id=er3></span></p>
+<p>skills<input type=checkbox class=skills>angular
+         <input type=checkbox class=skills>java
+		 <input type=checkbox class=skills>.net
+		 <input type=checkbox class=skills>python<span id=er4></span></p>
+<p>department<select id=bx5>
+<option>--select--</option>
+<option>it</option>
+<option>ece</option>
+<option>mec</option></select><span id=er5></span></p>
+<p><input type=submit></p>
+</form>
+<script src="validation.js"></script>
+</body>

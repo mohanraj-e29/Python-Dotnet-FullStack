@@ -1,0 +1,27 @@
+<script>
+var unit=parseInt(prompt("Enter the Units"));
+if (unit <= 100)
+               {
+                   document.write("Normal charges per unit=0"+"<br>");
+                   document.write("No extra charges per unit");
+               }
+               else if (unit >= 100 && unit <= 250)
+               {
+                   document.write("Normal charges per unit=2"+"<br>");
+                   document.write("Extra charges per unit=25");
+               }
+               else if (unit >= 251 && unit <= 450)
+               {
+                   document.write("Normal charges per unit=4"+"<br>");
+                   document.write("Extra charges per unit=75");
+               }
+               else if (unit > 450)
+               {
+                   document.write("Normal charges per unit=6"+"<br>");
+                   document.write("Extra charges per unit=100");
+               }
+               else
+               {
+                   document.write("Invalid Units");
+               }
+</script>

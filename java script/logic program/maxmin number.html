@@ -1,0 +1,25 @@
+<script>
+var a=[56,72,38,94,86]
+var max=a[0];
+var min=a[0];
+var sl=a[0]
+for(i=1;i<=a.length;i++)
+{
+if(max<a[i])
+{
+sl=max
+max=a[i];
+}
+else if(sl<a[i])
+{
+sl=a[i];
+}
+if(min>a[i])
+{
+min=a[i];
+}
+}
+document.write("Maximum number="+max+"<br>");
+document.write("Minimum number="+min+"<br>");
+document.write("second largest number="+sl+"<br>");
+</script>

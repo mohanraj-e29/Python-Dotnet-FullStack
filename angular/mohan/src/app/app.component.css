@@ -1,0 +1,12 @@
+nav a{
+    padding:10px;
+    margin:10px;
+    border:1px solid black;
+}
+.col{
+    color:blue;
+    background-color: brown;
+}
+.size{
+    font-size: 60px;
+}

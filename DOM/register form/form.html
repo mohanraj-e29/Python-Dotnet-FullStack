@@ -1,0 +1,122 @@
+<style>
+span{
+color:red;
+}
+</style>
+<body>
+<form action="home.html" onsubmit="return register()">
+<p>Gender: <input type=radio name=gender>Male
+<input type=radio name=gender>Female<span id=er1></span></p>
+<p>skills: <input type=checkbox class=skills>C
+<input type=checkbox class=skills>C++
+<input type=checkbox class=skills>Java
+<input type=checkbox class=skills>.Net
+<input type=checkbox class=skills>Python
+<input type=checkbox class=skills>WebDesign<span id=er2></span></p>
+<p>Department: <select id=bx>
+<option>--select-- </option>
+<option>It</option>
+<option>CSE</option>
+<option>ECE</option>
+<option>MEC</option></select><span id=er3></span></p>
+<p>Pincode No:<input type=text id=bx1><span id=er4></span></p>
+<p>DOB:<input type=date id=bx2><span id=er5></span></p>
+<p>Aadhar No:<input type=text id=bx3><span id=er6></span></p>
+<p>PAN Card No:<input type=text id=bx4><span id=er7></span></p>
+ <p><input type=submit id=bx5></p>
+ </form>
+ </body>
+ <script>
+ function register()
+ {
+	 //var v1=document.getElementsByName("gender");
+	 v1=document.getElementsByName("gender");
+	 e1=document.getElementById("er1");
+	  if(v1[0].checked==false && v1[1].checked==false)
+	  {
+	  e1.innerText="Please enter your gender";
+	  return false;
+	  }
+	  else
+	  {
+	   e1.innerText="";
+	  }
+	  
+	  //skills
+	    v2=document.getElementsByClassName("skills");
+		e2=document.getElementById("er2");
+		cnt=0;
+		for(i=0;i<v2.length;i++)
+		{
+		   if(v2[i].checked==true)
+		   {
+		     cnt++;
+		   }
+		}
+	    if(cnt<2)
+		{
+		  e2.innerText="please choose atleast 2skills";
+		  return false;
+		}
+		else
+		{
+		  e2.innerText="";
+		}
+		
+		//dept
+		v3=document.getElementById("bx");
+		e3=document.getElementById("er3");
+		sel=v3.selectedIndex;
+		if(sel==0)
+		{
+		  e3.innerText="please select your departmrnt";
+		  return false;
+		}
+		else
+		{
+		  e3.innerText="";
+		}
+		
+		//pincode
+		v4=document.getElementById("bx1");
+		e4=document.getElementById("er4");
+		exp1=/^[6-9]{1}[0-9]{5}$/;
+		if(v4.value=="")
+		{
+		  e4.innerText="please enter your pincode";
+		  v4.focus();
+		  return false;
+		}
+		
+		//dob
+		v4=document.getElementById("bx2");
+		e4=document.getElementById("er5");
+		if(v4.value=="")
+		{
+		   e4.innerText="please enter your dob";
+		   return false;
+		}
+		
+		//aadhar
+		v5=document.getElementById("bx3");
+		e5=document.getElementById("er6");
+		exp2=/^[6-9]{1}[1-9]{11}$/;
+		if(v5.value=="")
+		{
+		  e5.innerText="please enter your aadhar no";
+		  v5.focus();
+		  return false;
+		}
+		
+		//pancard
+		v6=document.getElementById("bx4");
+		e6=document.getElementById("er7");
+		exp3=/^[a-zA-Z]{5}[1-9]{4}[a-zA-Z]{1}$/;
+		if(v6.value=="")
+		{
+		  e6.innerText="please enter your pancard no";
+		  v6.focus();
+		  return false;
+		}
+	 }
+ </script>

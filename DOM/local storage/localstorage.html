@@ -1,0 +1,33 @@
+<body>
+<form action=home.html onsubmit="local()">
+<p>username<input type=text id=bx1></p>
+<p>password<input type=password id=bx2></p>
+<p><input type=submit value=login>
+   <input type=button value=remove onclick="del()"></p>
+</form>
+</body>
+<script>
+user=document.getElementById("bx1");
+pass=document.getElementById("bx2");
+function local()
+{
+c=document.getElementById("chk");
+if(c.checked==true)
+{
+LocalStorage.setItem("u",user.value);
+LocalStorage.setItem("p",pass.value);
+}
+if(LocalStorage.length>0)
+{
+user.value=LocalStorage.getItem("u");
+pass.value=LocalStorage.getItem("P");
+}
+}
+function del()
+{
+localstorage.removeItem("u");
+LocalStorage.removeItem("p");
+user.value="";
+pass.value="";
+}
+</script>

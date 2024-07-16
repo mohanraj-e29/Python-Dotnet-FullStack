@@ -1,0 +1,26 @@
+<style>
+div{
+width:250px;
+height:250px;
+border:1px solid black;
+overflow:auto;
+}
+</style>
+<body>
+<div id=display></div>
+<input type=text id=msg>
+<input type=button value=comment onclick=comment()>
+</body>
+<script>
+function comment()
+{
+d=document.getElementById("display");
+m=document.getElementById("msg");
+e=document.createElement("P");
+t=document.createTextNode(m.value);
+e.appendChild(t);
+d.appendChild(e);
+m.value="";
+m.focus();
+}
+</script>

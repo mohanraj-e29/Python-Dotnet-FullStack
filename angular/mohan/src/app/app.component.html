@@ -1,0 +1,166 @@
+<h1>Routing</h1>
+<nav>
+  <a routerLink="home">Home</a>
+  <a routerLink="about">About</a>
+</nav>
+<router-outlet></router-outlet>
+<br>
+<br>
+<br>
+<h1>String interpolation</h1>
+<p>hi{{info}}</p>
+<p>{{"hi"+info}}</p>
+<p>{{info.toLocaleUpperCase()}}</p>
+<p>{{info.length}}</p>
+<p>{{url}}</p>
+<br>
+<br>
+<h1>property binding</h1>
+<input [type]="t">
+<marquee [direction]="d">Mohanraj E</marquee>
+<br>
+<br>
+<h1>event binding</h1>
+<input type="button" value="course1" (click)="skl()">
+<input type="button" value="course2" (mouseout)="skills='java'">
+<p>{{skills}}</p>
+<br>
+<br>
+<h1>twoway binding</h1>
+<input type="text" [(ngModel)]="infos">
+<input type="button" value="clear" (click)="remove()">
+<p>{{infos}}</p>
+<br>
+<br>
+<span></span><h1>structural directives 
+  ngif
+</h1><span>
+<p *ngIf="eng>=50 && mat>=50">pass</p>
+<p *ngIf="eng<50 || mat<50">fail</p>
+  <br>
+  <br>
+  <span></span><h1>structural directives 
+    ngif-else
+  </h1><span>
+  <p *ngIf="eng>=50 && mat>=50 else faile">pass</p>
+  <ng-template #faile>
+     <h1>Fail</h1>
+  </ng-template>
+
+    <br>
+    <h1>ngif-then-else</h1>
+    physics:<input type="number" [(ngModel)]="phy">
+    social:<input type="number" [(ngModel)]="soc">
+  
+    <br>
+    <p>Total:{{phy+soc}}</p>
+
+    <p *ngif="phy>=50 && soc>=50; then pas; else faile"></p>
+    <ng-template #pas>
+      <img src="assests/pic5.jpg">
+      <p>pass</p>
+    </ng-template>
+
+
+    <ng-template #faile>
+      <img src="assests/pic6.jpg">
+      <p>fail</p>
+    </ng-template>
+    
+    <h1>ngfor</h1>
+    <p *ngFor="let c of course;let i=index">{{i+1+" . "+c}}</p>
+
+  
+   <h1>ng switch</h1>
+
+    <select [(ngModel)]="Selcity">
+      <option>--select--</option>
+      <option *ngFor="let c of City">{{c}}</option>
+    </select>
+    <div [ngSwitch]="Selcity">
+      <p *ngSwitchCase="'chennai'">TamilNadu</p>
+      <p *ngSwitchCase="'cochin'">Kerala</p>
+      <p *ngSwitchCase="'mysore'">Karnataka</p>
+      <p *ngSwitchDefault>Invalid City</p>
+    </div>
+  <div>
+   <h1>atribute directivs:ng class</h1>
+   <p [ngClass]="'col size'">Mohan</p>
+   <p [ngClass]="['col', 'size']">Sathish</p>
+   <p [ngClass]="{'col':true,'size':false}">matrix</p>
+
+   <h1>Dynamic with ng style</h1>
+   <input type="text"[(ngModel)]="cssvalue">
+   <p [ngClass]="cssvalue">ng style attribute</p>
+
+    <h1>ng model</h1>
+    color:<input type="color"[(ngModel)]="col">
+    family:<select [(ngModel)]="ff">
+      <option>Impact</option>
+      <option>Chiller</option>
+    </select>
+    <p [ngStyle]="{'color':col,'font-family':ff}">Mohanraj</p>
+
+    <h2>ng model for loop:</h2>
+    colour:<input type="color"[(ngModel)]="col">
+    familye:<select [ngModel]="fonts">
+      <option *ngFor="let c of selff"></option>
+      <option>--select--</option>
+      <option>Impact</option>
+      <option>Chiller</option>
+    </select>
+    <p [ngStyle]="{'color':col,'font-family':selff}">Mohanraj</p>
+  </div>
+
+  <h1>Bootstrap example</h1>
+  <div>
+    <div class="row">
+	    <div class="col-sm-4">
+	    <form>
+		<p>
+		    <label>name</label>
+			<input type="text" class="form-control">
+		</p>
+		<p>
+	        <label>email</label>
+			<input type="text" class="form-control">
+	    </p>
+		<p>
+		    <input type="submit" class="btn btn-primary">
+		</p>
+		</form>
+	</div>
+	</div>
+
+
+
+  <h1> Template Driven Form:</h1>
+
+  <div class="container" style="max-width:300px">
+      <form #profileForm="ngForm"(ngSubmit)="submitform (profileForm)">
+      <p>
+        <label>Name</label>
+        <input type="text" name="uname" [(ngModel)]="profile.user" class="form-control">
+      </p>
+      <p>
+        <label>Email</label>
+        <input type="text" name="email" [(ngModel)]="profile.email" class="form-control">
+      </p>
+      <p>
+        <label>Country</label>
+        <select name="country" [(ngModel)]="profile.country" class="form-select">
+          <option>--select--</option>
+          <option *ngFor="let c of country">{{c}}</option>
+          </select>
+      </p>
+      <p>
+        <input type="checkbox" name="itoc" [(ngModel)]="profile.itoc">I Accept term Of Condition. 
+      </p>
+      <p>
+        <input type="submit" value="Register" class="btn btn-primary">
+      </p>
+      </form>
+  </div>
+
+
+  

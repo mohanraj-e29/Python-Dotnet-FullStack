@@ -1,0 +1,33 @@
+<script>
+var a=[10,20,45,35,20,25];
+document.write("Value="+a+"<br>");
+var b=[];
+t=0;
+for(i=0;i<a.length;i++)
+{
+ var c=0;
+ for(j=0;j<a.length;j++)
+ {
+ if(a[i]==a[j])
+ {
+ c++;
+ }
+ }
+if(1<c)
+{
+b[t++]=a[i];
+m=0;
+for(k=0;k<b.length;k++)
+{
+if(b[k]==a[i])
+{
+m++;
+}
+}
+if(m==1)
+{
+document.write("Duplicate value="+a[i]+"<br>");
+}
+}
+}
+</script>

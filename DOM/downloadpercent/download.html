@@ -1,0 +1,23 @@
+<body>
+<input type=button value=download onclick=download()>
+<progress value=0 max=100 id=prog></progress><span id=status></span>
+</body>
+<script>
+i=1;
+function download()
+{
+v=setInterval(fun,1000);
+function fun()
+{
+p=document.getElementById("prog");
+s=document.getElementById("status");
+p.value=i;
+s.innerText=i;
+i++;
+if(i>100)
+{
+clearInterval(v);
+}
+}
+}
+</script>

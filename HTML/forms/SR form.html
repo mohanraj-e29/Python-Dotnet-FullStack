@@ -1,0 +1,84 @@
+<!doctype=html>
+<html>
+<head>
+<title>Application Forms</title>
+<link rel=icon href=forms.png>
+<style>
+body{
+background:#23c4a4;
+}
+</style>
+</head>
+<body>
+<table align=center>
+<form action=login.html method=post autocomplete=off>
+<caption><h3>Student Registration Form</h3></caption>
+<tr>
+<td><label >Name*</label></td>
+<td><input type=text id=user autofocus   required ></td>
+</tr>
+<tr>
+<td>Father Name</td>
+<td><input type=text></td>
+</tr>
+<tr>
+<td>Postal Address</td>
+<td><textarea rows=4 cols=15 maxlength=100 required></textarea></td>
+</tr>
+<tr>
+<td>Personal Address</td>
+<td><textarea rows=4 cols=15 maxlength=100 required></textarea></td>
+</tr>
+<tr>
+<td>Sex</td>
+<td><input type=radio name=gender>Male<input type=radio name=gender>Female</td>
+</tr>
+<tr>
+<td>City</td>
+<td><input list=city><datalist id=city>
+<option>Saithapet</option>
+<option>T.Nagar</option>
+<option>Guindy</option></datalist></td>
+</tr>
+<tr>
+<td>Course</td>
+<td><input list=course><datalist id=course>
+<option>Java</option>
+<option>Python</option>
+<option>ML</option></datalist></td>
+</tr>
+<tr>
+<td>District</td>
+<td><input list=district><datalist id=district>
+<option>Villupuram</option>
+<option>Chennai</option>
+<option>Kanchipuram</option></datalist></td>
+</tr>
+<tr>
+<td>State</td>
+<td><input list=state><datalist id=state>
+<option>Tamil Nadu</option>
+<option>Kerala</option>
+<option>Goa</option></datalist></td>
+</tr>
+<tr>
+<td>PinCode</td>
+<td><input type=number min=5 ></td>
+</tr>
+<tr>
+<td>Email Id</td>
+<td><input type=email ></td>
+</tr>
+<tr>
+<td>D-O-B</td>
+<td> <input type=date></td>
+</tr>
+<tr>
+<td>Phone No</td>
+<td><input type=text value=+91 size=1 readonly >
+<input type=text pattern=[0-9]{10} size=13 maxlength=10 required></td>
+</tr>
+<tr>
+<td><input type=Reset></td>
+<td><input type=submit value="Submit Form"></td>
+</tr>

@@ -1,0 +1,5 @@
+<h1>Font Size</h1>
+  <select [(ngModel)]="s">
+    <option *ngFor="let s of fs">{{s}}px</option>
+  </select>
+  <p [ngStyle]="{'Font-size':s}"> AIM </p>
